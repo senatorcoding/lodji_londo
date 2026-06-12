@@ -66,3 +66,12 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+
+
+
+## Setup Database
+1. Buat database bernama `rb_sia`
+2. Import file `database/rb_sia_struktur.sql`
+3. Salin file `.env.example` menjadi `.env`
+4. Sesuaikan konfigurasi database di `.env`
